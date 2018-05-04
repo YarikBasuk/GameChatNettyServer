@@ -12,6 +12,8 @@ import java.util.List;
 
 public class DBManager {
     private static final String TABLE_USERS = "game_chat_database.users";
+	
+	private static final String zzz = "ddf";
 
 
     public static int insertNewUser(String login, String password) {
